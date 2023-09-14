@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+#nav {
+    background-color: #121e27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 50px;
+    color: #fff;
+}
+
+#menu {
+    background-color: #121e27;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    color: #fff;
+    width: 100%;
+}
+
+#menu li {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+    flex-grow: 1; 
+}
+
+#menu a::after {
+    content: "";
+    position: absolute;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #ff5733;
+    transform: scaleX(0);
+    transform-origin: center bottom; /* Align to the center of the text */
+    transition: transform 0.3s ease;
+}
+
+#menu a:hover {
+    color: #ff5733;
+}
+
+#menu a:hover::after {
+    transform: scaleX(1);
+}
+
+
+

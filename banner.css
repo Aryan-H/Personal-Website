@@ -1,0 +1,414 @@
+#banner {
+    background-color: #121e27;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 86vh; 
+}
+
+#line1{
+    padding-top:20vh;
+    position: relative;
+    text-decoration: none;
+}
+
+#line1::after {
+    content: "";
+    position: absolute;
+    left: 596px;
+    bottom: -12px; /* Adjust this value to control the underline's position */
+    width: 26vh;
+    height: 10px;
+    background-color: #ff583398; /* Set the underline color to red */
+}
+
+#line2 {
+    padding-top:20px;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+#line2::after {
+    content: "";
+    position: absolute;
+    left: 100px;
+    bottom: -12px; /* Adjust this value to control the underline's position */
+    width: 26vh;
+    height: 10px;
+    background-color: #ff5833; /* Set the underline color to red */
+    z-index: 1; /* Place the underline behind the text */
+}
+
+#banner h1 {
+    padding-left:100px;
+    font-size: 3rem;
+    font-size: 55px;
+    margin: 0;
+    text-align:left;
+}
+
+.github {
+    width: 50px; /* Adjust the width as needed to make it smaller */
+    height: auto; /* Maintain the aspect ratio while resizing */
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    float: left;
+    margin-left: 100px;
+    margin-top:35px;
+}
+
+.linkedin {
+    width: 50px; /* Adjust the width as needed to make it smaller */
+    height: auto; /* Maintain the aspect ratio while resizing */
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    float: left;
+    margin-left: 40px;
+    margin-top:35px;
+}
+
+.email {
+    width: 50px; /* Adjust the width as needed to make it smaller */
+    height: auto; /* Maintain the aspect ratio while resizing */
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    float: left;
+    margin-left: 40px;
+    margin-top:35px;
+}
+
+#banner p {
+    max-width: 750px;
+    font-size: 26px;
+    text-align: left;
+    margin-left: 105px;
+    margin-top: 140px;
+    
+}
+
+
+.cloud-container {
+    width: 400px; 
+    height: auto;
+    position: absolute;
+    animation: moveCloud 20s linear infinite; 
+    top: 10%; 
+    left: 10%;
+    z-index: 1;
+}
+    
+
+.cloud1 {
+    width: 20%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    animation: moveCloud 60s linear infinite;
+}
+.cloud2 {
+    width: 10%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 950%; 
+    left: 100%;
+}
+
+.cloud3 {
+    width: 30%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 1500%; 
+    left: 20%;
+}
+
+.cloud4 {
+    width: 50%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 1450%; 
+    left: -100%;
+}
+
+.cloud5 {
+    width: 20%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 300%; 
+    left: 10%;
+}
+
+.cloud6 {
+    width: 10%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 600%; 
+    left: 10%;
+}
+
+.cloud7 {
+    width: 20%;
+    opacity:0.3;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 1200%; 
+    left: 10%;
+}
+
+.cloud8 {
+    width: 40%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 10%; 
+    right: 200%;
+}
+
+.cloud9 {
+    width: 30%;
+    opacity:0.3;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 800%; 
+    left: 40%;
+}
+
+.cloud10 {
+    width: 10%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 250%; 
+    left: 10%;
+}
+
+.cloud11 {
+    width: 10%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 400%; 
+    right: 200%;
+}
+
+.cloud12 {
+    width: 20%;
+    opacity:0.2;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 1200%; 
+    left: 90%;
+}
+
+.cloud13 {
+    width: 15%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 250%; 
+    left: 100%;
+}
+
+.cloud14 {
+    width: 16%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 10%; 
+    left: 100%;
+}
+
+.cloud15 {
+    width: 12%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 700%; 
+    right: 200%;
+}
+
+.cloud16 {
+    width: 25%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 1500%; 
+    right: 150%;
+}
+
+.cloud17 {
+    width: 8%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 900%; 
+    right: 140%;
+}
+
+.cloud18 {
+    width: 5%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 1100%; 
+    right: 160%;
+}
+
+.cloud19 {
+    width: 5%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 1300%; 
+    right: 200%;
+}
+
+.cloud20 {
+    width: 18%;
+    opacity:0.5;
+    height: auto;
+    filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+    position: absolute;
+    animation: moveCloud 60s linear infinite; 
+    top: 10%; 
+    right: 250%;
+}
+
+
+
+
+@keyframes moveCloud {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%); /* Keep the clouds within the viewport */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #banner h1 {
+        font-size: 2rem; 
+    }
+
+    #banner p {
+        font-size: 0.8rem; 
+    }
+
+    #line1{
+        padding-top:20vh;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    #line1::after {
+        content: "";
+        position: absolute;
+        left: 390px;
+        bottom: -10px; /* Adjust this value to control the underline's position */
+        width: 15vh;
+        height: 6px;
+        background-color: #ff583398; /* Set the underline color to red */
+    }
+    
+    #line2 {
+        padding-top:20px;
+        position: relative;
+        text-decoration: none;
+        
+    }
+    
+    #line2::after {
+        content: "";
+        position: absolute;
+        left: 100px;
+        bottom: -10px; /* Adjust this value to control the underline's position */
+        width: 14vh;
+        height: 6px;
+        background-color: #ff5833; /* Set the underline color to red */
+        z-index: 1; /* Place the underline behind the text */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #banner h1 {
+        font-size: 1.2rem; 
+    }
+
+    #banner p {
+        font-size: 0.6rem; 
+    }
+
+    #line1{
+        padding-top:20vh;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    #line1::after {
+        content: "";
+        position: absolute;
+        left: 270px;
+        bottom: -10px; /* Adjust this value to control the underline's position */
+        width: 10vh;
+        height: 4px;
+        background-color: #ff583398; /* Set the underline color to red */
+    }
+    
+    #line2 {
+        padding-top:20px;
+        position: relative;
+        text-decoration: none;
+        
+    }
+    
+    #line2::after {
+        content: "";
+        position: absolute;
+        left: 100px;
+        bottom: -10px; /* Adjust this value to control the underline's position */
+        width: 10vh;
+        height: 4px;
+        background-color: #ff5833; /* Set the underline color to red */
+        z-index: 1; /* Place the underline behind the text */
+    }
+
+}
