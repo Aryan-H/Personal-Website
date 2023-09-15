@@ -122,7 +122,7 @@
     filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
     position: absolute;
     animation: moveCloud 60s linear infinite; 
-    top: 1500%; 
+    top: 1300%; 
     left: 20%;
 }
 
@@ -133,7 +133,7 @@
     filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
     position: absolute;
     animation: moveCloud 60s linear infinite; 
-    top: 1450%; 
+    top: 1350%; 
     left: -100%;
 }
 
