@@ -16,10 +16,10 @@
     content: "";
     position: absolute;
     left: 596px;
-    bottom: -12px; /* Adjust this value to control the underline's position */
+    bottom: -12px; 
     width: 26vh;
     height: 10px;
-    background-color: #ff583398; /* Set the underline color to red */
+    background-color: #ff583398; 
 }
 
 #line2 {
@@ -33,11 +33,11 @@
     content: "";
     position: absolute;
     left: 100px;
-    bottom: -12px; /* Adjust this value to control the underline's position */
+    bottom: -12px; 
     width: 26vh;
     height: 10px;
-    background-color: #ff5833; /* Set the underline color to red */
-    z-index: 1; /* Place the underline behind the text */
+    background-color: #ff5833;
+    z-index: 1; 
 }
 
 #banner h1 {
@@ -49,8 +49,8 @@
 }
 
 .github {
-    width: 50px; /* Adjust the width as needed to make it smaller */
-    height: auto; /* Maintain the aspect ratio while resizing */
+    width: 50px; 
+    height: auto; 
     filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
     float: left;
     margin-left: 100px;
@@ -58,8 +58,8 @@
 }
 
 .linkedin {
-    width: 50px; /* Adjust the width as needed to make it smaller */
-    height: auto; /* Maintain the aspect ratio while resizing */
+    width: 50px; 
+    height: auto; 
     filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
     float: left;
     margin-left: 40px;
@@ -67,8 +67,8 @@
 }
 
 .email {
-    width: 50px; /* Adjust the width as needed to make it smaller */
-    height: auto; /* Maintain the aspect ratio while resizing */
+    width: 50px; 
+    height: auto; 
     filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
     float: left;
     margin-left: 40px;
@@ -320,7 +320,7 @@
         transform: translateX(100%);
     }
     100% {
-        transform: translateX(-100%); /* Keep the clouds within the viewport */
+        transform: translateX(-100%); 
     }
 }
 
@@ -343,10 +343,10 @@
         content: "";
         position: absolute;
         left: 390px;
-        bottom: -10px; /* Adjust this value to control the underline's position */
+        bottom: -10px; 
         width: 15vh;
         height: 6px;
-        background-color: #ff583398; /* Set the underline color to red */
+        background-color: #ff583398;
     }
     
     #line2 {
@@ -360,11 +360,11 @@
         content: "";
         position: absolute;
         left: 100px;
-        bottom: -10px; /* Adjust this value to control the underline's position */
+        bottom: -10px; 
         width: 14vh;
         height: 6px;
-        background-color: #ff5833; /* Set the underline color to red */
-        z-index: 1; /* Place the underline behind the text */
+        background-color: #ff5833; 
+        z-index: 1;
     }
 }
 
@@ -387,10 +387,10 @@
         content: "";
         position: absolute;
         left: 270px;
-        bottom: -10px; /* Adjust this value to control the underline's position */
+        bottom: -10px; 
         width: 10vh;
         height: 4px;
-        background-color: #ff583398; /* Set the underline color to red */
+        background-color: #ff5833;
     }
     
     #line2 {
@@ -404,11 +404,11 @@
         content: "";
         position: absolute;
         left: 100px;
-        bottom: -10px; /* Adjust this value to control the underline's position */
+        bottom: -10px; 
         width: 10vh;
         height: 4px;
-        background-color: #ff5833; /* Set the underline color to red */
-        z-index: 1; /* Place the underline behind the text */
+        background-color: #ff5833; 
+        z-index: 1;
     }
 
 }
