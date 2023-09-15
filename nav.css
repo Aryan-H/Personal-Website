@@ -50,7 +50,7 @@ body {
     height: 2px;
     background-color: #ff5733;
     transform: scaleX(0);
-    transform-origin: center bottom; /* Align to the center of the text */
+    transform-origin: center bottom; 
     transition: transform 0.3s ease;
 }
 
