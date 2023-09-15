@@ -122,7 +122,7 @@
     position: absolute;
     animation: moveCloud 60s linear infinite; 
     top: 1300%; 
-    left: 20%;
+    left: 0%;
 }
 
 .cloud4 {
