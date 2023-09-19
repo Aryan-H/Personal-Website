@@ -1,3 +1,5 @@
 # Personal-Website
 
-This is the HTML, CSSS, and Javascript for my personal pprotfolio website. Hope you enjoy!
+This is the HTML, CSSS, and Javascript for my personal portfolio website. Hope you enjoy!
+
+Link: hussainaryan.com
