@@ -42,7 +42,6 @@
 
 #banner h1 {
     padding-left:100px;
-    font-size: 3rem;
     font-size: 55px;
     margin: 0;
     text-align:left;
@@ -329,6 +328,14 @@
         font-size: 2rem; 
     }
 
+    .cloud16 {
+        opacity: 0;
+    }
+
+    .cloud4 {
+        opacity: 0;
+    }
+
     #banner p {
         font-size: 0.8rem; 
     }
@@ -370,7 +377,10 @@
 
 @media screen and (max-width: 600px) {
     #banner h1 {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
+        padding-left: 0px;
+        margin: 0;
+        text-align:center; 
     }
 
     #banner p {
@@ -384,31 +394,61 @@
     }
     
     #line1::after {
-        content: "";
-        position: absolute;
-        left: 270px;
-        bottom: -10px; 
-        width: 10vh;
-        height: 4px;
-        background-color: #ff5833;
+        opacity: 0;
     }
     
     #line2 {
-        padding-top:20px;
+        padding-top:10px;
         position: relative;
         text-decoration: none;
         
     }
     
     #line2::after {
-        content: "";
-        position: absolute;
-        left: 100px;
-        bottom: -10px; 
-        width: 10vh;
-        height: 4px;
-        background-color: #ff5833; 
-        z-index: 1;
+        opacity: 0;
     }
+
+    .github {
+        width: 40px; 
+        height: auto;
+        float: left; 
+        filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+        margin-left: 15%;
+        margin-top:0px;
+        margin-top: 35px;
+    }
+    
+    .linkedin {
+        width: 40px; 
+        height: auto;
+        float: left; 
+        filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+        margin-left: 17%;
+        margin-top:0px;
+        margin-top: 35px;
+    }
+    
+    .email {
+        width: 40px; 
+        height: auto;
+        float: left; 
+        filter: invert(35%) sepia(63%) saturate(1403%) hue-rotate(337deg) brightness(118%) contrast(107%);
+        margin-left: 19%;
+        margin-top:0px;
+        margin-top: 35px;
+    }
+    
+    #banner p {
+        max-width: 100%;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 140px;
+        
+    }
+
+    
+
+    
 
 }
