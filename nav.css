@@ -62,5 +62,34 @@ body {
     transform: scaleX(1);
 }
 
+@media screen and (max-width: 600px) {
+    .breadcrumb{
+        font-size: 10px;
+    }
+
+    #nav {
+        background-color: #121e27;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10vh;
+        color: #fff;
+    }
+
+    #menu {
+        background-color: #121e27;
+        align-items: center;
+        padding-top: 20px;
+        color: #fff;
+        width: 100%;
+    }
+
+    #menu li {
+        text-align: center;
+        color: #fff;
+        justify-content: center;
+        font-weight: 1000;
+    }
+}
+
 
 
